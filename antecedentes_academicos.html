@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV - Héctor Vinés</title>
+    <style>
+        .accordion-item {
+            margin-bottom: 10px;
+        }
+
+        .accordion-header {
+            background-color: #f8f9fa;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .accordion-body {
+            display: none;
+            padding: 10px;
+        }
+
+        .accordion-body.active {
+            display: block;
+        }
+    </style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>CV - Héctor Vinés</title>
+  </head>
+
+  <body>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="0" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Héctor Felipe Vinés Alvarez</span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0">
+        </form>
+      </div>
+    </header>
+
+
+
+    
+    <nav class="py-2 bg-light border-bottom">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+          </Users/hectorvines/Desktop/Código CV/index.html>
+            <li class="nav-item"><a href="index.html" class="nav-link link-dark px-2 active" aria-current="page">Resumen</a></li>
+        </Users/hectorvines/Desktop/Código CV/antecedentes_academicos.html>
+            <li class="nav-item"><a href="antecedentes_academicos.html" class="nav-link link-dark px-2">Antecedentes Académicos</a></li>
+      </Users/hectorvines/Desktop/Código CV/experiencia_laboral.html>
+            <li class="nav-item"><a href="experiencia_laboral.html" class="nav-link link-dark px-2">Experiencia laboral</a></li>
+    </Users/hectorvines/Desktop/Código CV/contacto.html>
+            <li class="nav-item"><a href="contacto.html" class="nav-link link-dark px-2">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="container my-4">
+        <div class="card">
+          <div class="card-body">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion('collapseOne')">2020 - Actualidad</div>
+                    <div id="collapseOne" class="accordion-body">
+                        <strong>Universidad Diego Portales, Ingenieria Civil en Informatica y Telecomunicaciones.</strong> - Alumno regular
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion('collapseTwo')">2016 - 2018</div>
+                    <div id="collapseTwo" class="accordion-body">
+                        <strong>DUOC, Técnología en Sonido</strong> - Grado académico de Técnologo en Sonido
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion('collapseThree')">2011 - 2016</div>
+                    <div id="collapseThree" class="accordion-body">
+                        <strong>Pontifica Universidad Católica, Licenciatura en Música</strong> - Grado académico de Bachiller en Artes Musicales
+                    </div>
+                </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    
+
+    <script>
+        function toggleAccordion(id) {
+            var element = document.getElementById(id);
+            element.classList.toggle('active');
+        }
+    </script>
+
+
+
+
+
+<div class="container my-4">
+    <div class="card">
+      <div class="card-body">
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('collapseFour')">Certificaciones</div>
+                <div id="collapseFour" class="accordion-body">
+                    <strong>Dubspot, Nueva York - USA (2015)</strong> 
+                    <p> - Certified Ableton Live Producer</p>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('collapseFive')">Guitarra Eléctrica</div>
+                <div id="collapseFive" class="accordion-body">
+                    <strong>Federico Danneman</strong> - Guitarra Jazz
+                    <p><strong>Esteban Sumar</strong> - Armonía y Composición</p>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('collapseSix')">Estudio de Grabación</div>
+                <div id="collapseSix" class="accordion-body">
+                    <strong>Germán Escobar</strong> - Mezcla y Masterización para plataformas digitales
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+    function toggleAccordion(id) {
+        var element = document.getElementById(id);
+        element.classList.toggle('active');
+    }
+</script>
+
+
+
+</body>
+
+</html>
